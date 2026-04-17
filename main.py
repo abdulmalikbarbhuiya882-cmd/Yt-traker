@@ -3,7 +3,7 @@ import time
 from datetime import datetime
 
 API_KEY = "AIzaSyDZzf2gSAqvmq_1fTUlL7YCVZ2LCjvSvh4"
-VIDEO_ID = "wRgCUJx0gNo"
+VIDEO_ID = "wu8Nv93lkVk"
 
 last_views = None
 
