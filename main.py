@@ -21,6 +21,4 @@ while True:
     except:
         print("Error fetching")
 
-    now = time.time()
-next_run = ((int(now) // 300) + 1) * 300
-time.sleep(next_run - now)
+    time.sleep(300)
