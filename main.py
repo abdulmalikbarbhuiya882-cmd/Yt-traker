@@ -18,7 +18,7 @@ while True:
             print(datetime.now().strftime("%H:%M"), "Views:", views)
             last_views = views
 
-    except:
-        print("Error fetching")
+    except Exception as e:
+    print("Error fetching:", e)
 
     time.sleep(300)
