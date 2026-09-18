@@ -1,5 +1,6 @@
 # Railway latest deployment
 import requests
+import time
 from datetime import datetime
 
 API_KEY = "AIzaSyDZzf2gSAqvmq_1fTUlL7YCVZ2LCjvSvh4"
@@ -20,4 +21,6 @@ while True:
     except:
         print("Error fetching")
 
-    time.sleep(300)
+    now = time.time()
+next_run = ((int(now) // 300) + 1) * 300
+time.sleep(next_run - now)
