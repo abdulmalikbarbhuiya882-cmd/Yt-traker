@@ -19,6 +19,6 @@ while True:
             last_views = views
 
     except Exception as e:
-    print("Error fetching:", e)
+        print("Error fetching:", e)
 
     time.sleep(300)
